@@ -1,6 +1,6 @@
-## Cypress Setup & Complete Ready-to-Copy Guide
+### Cypress Setup & Complete Ready-to-Copy Guide
 
-### 1) Install Node.js
+#### 1) Install Node.js
 
 Node.js is required because Cypress runs on Node.
 
@@ -9,14 +9,14 @@ Verify installation:
     node -v
     npm -v
 
-### 2) Install Visual Studio Code
+#### 2) Install Visual Studio Code
 
 Recommended extensions: - ESLint\
 - Prettier\
 - Cypress Snippets\
 - Live Server (optional)
 
-### 3) Create Your Cypress Project Folder
+#### 3) Create Your Cypress Project Folder
 
 Example:
 
@@ -26,15 +26,15 @@ Open it in VS Code:
 
     code path/to/Cypress-Automation
 
-### 4) Initialize npm (creates package.json)
+#### 4) Initialize npm (creates package.json)
 
     npm init -y
 
-### 5) Install Cypress
+#### 5) Install Cypress
 
     npm install cypress --save-dev
 
-### 6) Open Cypress
+#### 6) Open Cypress
 
 GUI mode:
 
@@ -46,7 +46,7 @@ Headless mode:
 
 ------------------------------------------------------------------------
 
-## ✅ Cypress Project Folder Structure (with explanations)
+### ✅ Cypress Project Folder Structure (with explanations)
 
     Cypress-Automation/
     │
@@ -61,13 +61,13 @@ Headless mode:
     ├── cypress.config.js     → Main Cypress configuration file
     ├── package.json          → Dependencies + scripts
 
-### 📁 Folder-by-Folder Explanation
+#### 📁 Folder-by-Folder Explanation
 
-#### 1. downloads/
+##### 1. downloads/
 
 Stores files downloaded during testing.
 
-#### 2. fixtures/
+##### 2. fixtures/
 
 Static test data (JSON files).
 
@@ -78,7 +78,7 @@ Example:
       "password": "admin123"
     }
 
-#### 3. e2e/
+##### 3. e2e/
 
 All your test cases live here.
 
@@ -87,11 +87,11 @@ Example:
     LoginTest.cy.js
     CheckoutTest.cy.js
 
-#### 4. screenshots/
+##### 4. screenshots/
 
 Cypress automatically puts failed test screenshots here.
 
-#### 5. support/
+##### 5. support/
 
 Used for reusable logic.
 
@@ -103,24 +103,24 @@ Example (`commands.js`):
       cy.get('#login-btn').click()
     })
 
-#### 6. videos/
+##### 6. videos/
 
 Cypress headless runs produce videos here.
 
-#### 7. node_modules/
+##### 7. node_modules/
 
 All installed packages (Cypress + others).\
 Do NOT edit manually.
 
 ------------------------------------------------------------------------
 
-### 📌 File Upload Support
+#### 📌 File Upload Support
 
 Install plugin:
 
     npm install --save-dev cypress-file-upload
 
-### 📌 XPath Support
+#### 📌 XPath Support
 
 Install:
 
@@ -128,7 +128,7 @@ Install:
 
 ------------------------------------------------------------------------
 
-### 🏷 Running Tests by Tags (cypress-grep)
+#### 🏷 Running Tests by Tags (cypress-grep)
 
 Install:
 

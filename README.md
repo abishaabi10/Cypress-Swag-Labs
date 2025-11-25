@@ -1,6 +1,6 @@
- Cypress Setup & Complete Ready-to-Copy Guide
+## Cypress Setup & Complete Ready-to-Copy Guide
 
-## 1) Install Node.js
+### 1) Install Node.js
 
 Node.js is required because Cypress runs on Node.
 
@@ -9,7 +9,7 @@ Verify installation:
     node -v
     npm -v
 
-## 2) Install Visual Studio Code
+### 2) Install Visual Studio Code
 
 Recommended extensions: - ESLint\
 - Prettier\

@@ -1,4 +1,4 @@
-# Cypress Setup & CSS Selectors --- Complete Ready-to-Copy Guide
+ Cypress Setup & Complete Ready-to-Copy Guide
 
 ## 1) Install Node.js
 
